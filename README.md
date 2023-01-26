@@ -1,6 +1,6 @@
-# Examination files
+# Examination
 
-In these folders, you will find the necessary files for setting up a nodemailer API on your server. Nodemailer is a popular Node.js module that allows you to send emails from your server. The Nodemailer API in these folders has been configured to send emails to a Gmail account using the SMTP protocol. Additionally, the folders contain config files for nginx on Debian/Ubuntu OS. These files are used to configure nginx as a reverse proxy. The config file is also scripted to create a log file. This log file stores logs for every request made to the server.
+In this Readme, you will learn how setup your own nodemailer API on your server. Nodemailer is a popular Node.js module that allows you to send emails from your server. The Nodemailer API has been configured to send emails to a Gmail account using the SMTP protocol. Additionally, these folders contain config files for nginx on Debian/Ubuntu OS. These files are used to configure nginx as a reverse proxy. The config file is also scripted to create a log file. This log file stores logs for every request made to the server.
 
 # Ports
 
@@ -20,6 +20,7 @@ Before you proceed to install the Nodemailer API, you need to have the following
 In order to install Nodemailer API you need to run:
 
 ```
+git clone https://github.com/timabloom/nodemailer-api
 npm install
 ```
 
