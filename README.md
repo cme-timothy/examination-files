@@ -21,6 +21,7 @@ In order to install Nodemailer API you need to run:
 
 ```
 git clone https://github.com/timabloom/nodemailer-api
+cd nodemailer-api
 npm install
 ```
 
