@@ -45,7 +45,7 @@ origin: "example.com",
 
 # Nginx installation on a linux OS
 
-## How to install Nginx from official Debian/Ubuntu packages
+## How to install Nginx from the official Debian/Ubuntu packages
 
 In order to install Nginx you need to run:
 
@@ -56,13 +56,15 @@ sudo apt install nginx
 
 ## Add client domain name to Nginx configuration
 
-Open nodemailer-server.conf and change the domain name to your existing client domain name:
+Download nodemailer-server.conf from this github repositori then open it.
+
+Edit nodemailer-server.conf to your existing client domain name:
 
 server_name example.com;
 
 ## How to create a Nginx reverse proxy
 
-Move file inside the nginx-configs folder to:
+Move the nodemailer-server.conf file inside your nginx-configs folder:
 
 /etc/nginx/conf.d
 
