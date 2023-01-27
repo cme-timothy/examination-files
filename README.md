@@ -101,3 +101,5 @@ email: string,
 subject: string,
 message: string,
 }
+
+Remember the email needs to be a valid email adress.
